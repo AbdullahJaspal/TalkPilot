@@ -35,7 +35,7 @@ const WelcomeScreen = ({navigation}) => {
         style={{
           width: '95%',
           backgroundColor: '#607D8B',
-          height: 45,
+          height: 50,
           borderRadius: 15,
           alignItems: 'center',
           justifyContent: 'center',
