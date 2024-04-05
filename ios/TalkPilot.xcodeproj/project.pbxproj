@@ -14,6 +14,22 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-TalkPilot-TalkPilotTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-TalkPilot-TalkPilotTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F660E72794794A738C671158 /* JetBrainsMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6B24D8A5E3F42529FAD3BA8 /* JetBrainsMono-Bold.ttf */; };
+		264F5E49550C4793886C3CD1 /* JetBrainsMono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E44E31F6C814666997319A1 /* JetBrainsMono-BoldItalic.ttf */; };
+		EB9A7498F8A74937B4089073 /* JetBrainsMono-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEF42A7AFAAE4B23B7593F3D /* JetBrainsMono-ExtraBold.ttf */; };
+		4C7D66B881794EE090EB5F3A /* JetBrainsMono-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6685A8A49FBA48CC9AD25333 /* JetBrainsMono-ExtraBoldItalic.ttf */; };
+		E746B5B3BBD5473D83ECF688 /* JetBrainsMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CADF0E43F3F949E3B8F556DE /* JetBrainsMono-ExtraLight.ttf */; };
+		4DFA4D3BD07C44EC8EF03E2B /* JetBrainsMono-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C661B68DEFD64839A5E11304 /* JetBrainsMono-ExtraLightItalic.ttf */; };
+		0E49DB6AB3D74262A1D59422 /* JetBrainsMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C08868317294E178422BD1A /* JetBrainsMono-Italic.ttf */; };
+		CA9826DCA37E44DD9DE59043 /* JetBrainsMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D437D20FB9846D38AA3BA93 /* JetBrainsMono-Light.ttf */; };
+		6BA5601F6B7547FCA8A3DE5F /* JetBrainsMono-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA5CB9C28D434CA0BE26A881 /* JetBrainsMono-LightItalic.ttf */; };
+		4E1FE8E16EDF41C28986E6DC /* JetBrainsMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C146E1ACBE3490893433AA4 /* JetBrainsMono-Medium.ttf */; };
+		B5F857CECAAB403EB6FAC85D /* JetBrainsMono-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF4BFA46985E4730B8C04FB8 /* JetBrainsMono-MediumItalic.ttf */; };
+		6991E5D4289142CBBB05AD23 /* JetBrainsMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEB3893E14CF4EADB5774B9A /* JetBrainsMono-Regular.ttf */; };
+		F34761A7E5DE4FFBB87930B8 /* JetBrainsMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4833CC935BD448D4A0CED5B8 /* JetBrainsMono-SemiBold.ttf */; };
+		11E4BB0105C04195B0235985 /* JetBrainsMono-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 630DC489EFB241F9B5EEAA44 /* JetBrainsMono-SemiBoldItalic.ttf */; };
+		2B7E759864224F27BA91483A /* JetBrainsMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22AD8D0B378A45D5B100552B /* JetBrainsMono-Thin.ttf */; };
+		25D5EB9BAA8D451DA5A7B4B4 /* JetBrainsMono-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABAAE40AE6054AC0BCDF5605 /* JetBrainsMono-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +60,22 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TalkPilot/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-TalkPilot-TalkPilotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkPilot-TalkPilotTests.release.xcconfig"; path = "Target Support Files/Pods-TalkPilot-TalkPilotTests/Pods-TalkPilot-TalkPilotTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		E6B24D8A5E3F42529FAD3BA8 /* JetBrainsMono-Bold.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-Bold.ttf"; path = "../assetss/fonts/JetBrainsMono-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7E44E31F6C814666997319A1 /* JetBrainsMono-BoldItalic.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-BoldItalic.ttf"; path = "../assetss/fonts/JetBrainsMono-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EEF42A7AFAAE4B23B7593F3D /* JetBrainsMono-ExtraBold.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-ExtraBold.ttf"; path = "../assetss/fonts/JetBrainsMono-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6685A8A49FBA48CC9AD25333 /* JetBrainsMono-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-ExtraBoldItalic.ttf"; path = "../assetss/fonts/JetBrainsMono-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CADF0E43F3F949E3B8F556DE /* JetBrainsMono-ExtraLight.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-ExtraLight.ttf"; path = "../assetss/fonts/JetBrainsMono-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C661B68DEFD64839A5E11304 /* JetBrainsMono-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-ExtraLightItalic.ttf"; path = "../assetss/fonts/JetBrainsMono-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4C08868317294E178422BD1A /* JetBrainsMono-Italic.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-Italic.ttf"; path = "../assetss/fonts/JetBrainsMono-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2D437D20FB9846D38AA3BA93 /* JetBrainsMono-Light.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-Light.ttf"; path = "../assetss/fonts/JetBrainsMono-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA5CB9C28D434CA0BE26A881 /* JetBrainsMono-LightItalic.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-LightItalic.ttf"; path = "../assetss/fonts/JetBrainsMono-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5C146E1ACBE3490893433AA4 /* JetBrainsMono-Medium.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-Medium.ttf"; path = "../assetss/fonts/JetBrainsMono-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF4BFA46985E4730B8C04FB8 /* JetBrainsMono-MediumItalic.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-MediumItalic.ttf"; path = "../assetss/fonts/JetBrainsMono-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DEB3893E14CF4EADB5774B9A /* JetBrainsMono-Regular.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-Regular.ttf"; path = "../assetss/fonts/JetBrainsMono-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4833CC935BD448D4A0CED5B8 /* JetBrainsMono-SemiBold.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-SemiBold.ttf"; path = "../assetss/fonts/JetBrainsMono-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		630DC489EFB241F9B5EEAA44 /* JetBrainsMono-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-SemiBoldItalic.ttf"; path = "../assetss/fonts/JetBrainsMono-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		22AD8D0B378A45D5B100552B /* JetBrainsMono-Thin.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-Thin.ttf"; path = "../assetss/fonts/JetBrainsMono-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ABAAE40AE6054AC0BCDF5605 /* JetBrainsMono-ThinItalic.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-ThinItalic.ttf"; path = "../assetss/fonts/JetBrainsMono-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +154,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				FE84EFB1FB3848C2A4C6576E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +180,30 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		FE84EFB1FB3848C2A4C6576E /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				E6B24D8A5E3F42529FAD3BA8 /* JetBrainsMono-Bold.ttf */,
+				7E44E31F6C814666997319A1 /* JetBrainsMono-BoldItalic.ttf */,
+				EEF42A7AFAAE4B23B7593F3D /* JetBrainsMono-ExtraBold.ttf */,
+				6685A8A49FBA48CC9AD25333 /* JetBrainsMono-ExtraBoldItalic.ttf */,
+				CADF0E43F3F949E3B8F556DE /* JetBrainsMono-ExtraLight.ttf */,
+				C661B68DEFD64839A5E11304 /* JetBrainsMono-ExtraLightItalic.ttf */,
+				4C08868317294E178422BD1A /* JetBrainsMono-Italic.ttf */,
+				2D437D20FB9846D38AA3BA93 /* JetBrainsMono-Light.ttf */,
+				AA5CB9C28D434CA0BE26A881 /* JetBrainsMono-LightItalic.ttf */,
+				5C146E1ACBE3490893433AA4 /* JetBrainsMono-Medium.ttf */,
+				BF4BFA46985E4730B8C04FB8 /* JetBrainsMono-MediumItalic.ttf */,
+				DEB3893E14CF4EADB5774B9A /* JetBrainsMono-Regular.ttf */,
+				4833CC935BD448D4A0CED5B8 /* JetBrainsMono-SemiBold.ttf */,
+				630DC489EFB241F9B5EEAA44 /* JetBrainsMono-SemiBoldItalic.ttf */,
+				22AD8D0B378A45D5B100552B /* JetBrainsMono-Thin.ttf */,
+				ABAAE40AE6054AC0BCDF5605 /* JetBrainsMono-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +300,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F660E72794794A738C671158 /* JetBrainsMono-Bold.ttf in Resources */,
+				264F5E49550C4793886C3CD1 /* JetBrainsMono-BoldItalic.ttf in Resources */,
+				EB9A7498F8A74937B4089073 /* JetBrainsMono-ExtraBold.ttf in Resources */,
+				4C7D66B881794EE090EB5F3A /* JetBrainsMono-ExtraBoldItalic.ttf in Resources */,
+				E746B5B3BBD5473D83ECF688 /* JetBrainsMono-ExtraLight.ttf in Resources */,
+				4DFA4D3BD07C44EC8EF03E2B /* JetBrainsMono-ExtraLightItalic.ttf in Resources */,
+				0E49DB6AB3D74262A1D59422 /* JetBrainsMono-Italic.ttf in Resources */,
+				CA9826DCA37E44DD9DE59043 /* JetBrainsMono-Light.ttf in Resources */,
+				6BA5601F6B7547FCA8A3DE5F /* JetBrainsMono-LightItalic.ttf in Resources */,
+				4E1FE8E16EDF41C28986E6DC /* JetBrainsMono-Medium.ttf in Resources */,
+				B5F857CECAAB403EB6FAC85D /* JetBrainsMono-MediumItalic.ttf in Resources */,
+				6991E5D4289142CBBB05AD23 /* JetBrainsMono-Regular.ttf in Resources */,
+				F34761A7E5DE4FFBB87930B8 /* JetBrainsMono-SemiBold.ttf in Resources */,
+				11E4BB0105C04195B0235985 /* JetBrainsMono-SemiBoldItalic.ttf in Resources */,
+				2B7E759864224F27BA91483A /* JetBrainsMono-Thin.ttf in Resources */,
+				25D5EB9BAA8D451DA5A7B4B4 /* JetBrainsMono-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

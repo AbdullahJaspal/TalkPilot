@@ -1,0 +1,69 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assetss/fonts/JetBrainsMono-Bold.ttf",
+      "sha1": "8a0806a42bb8c44290735c17fbb439b8d8c08ec5"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-BoldItalic.ttf",
+      "sha1": "7b9092d8adfb9cfb7c26acd02a9ec4a6158a4546"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-ExtraBold.ttf",
+      "sha1": "c414a0e9e1f3ad17e236bd60cc89badec7be29c4"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-ExtraBoldItalic.ttf",
+      "sha1": "c32625140127a45ccc72967caf4b19a4a0a16465"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-ExtraLight.ttf",
+      "sha1": "afb2c31cb893c82812f25051146f6b0a346cc0b9"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-ExtraLightItalic.ttf",
+      "sha1": "9177f4139b4fc724f61aedf7a51ec453ba2d5561"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-Italic.ttf",
+      "sha1": "936cdfc58bebc8b39e9aeaad3f2c92e9efc8aec4"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-Light.ttf",
+      "sha1": "f2cb906a2416e6981bdf29932661b0e92600c8d4"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-LightItalic.ttf",
+      "sha1": "1050744c8c573c37bd52788376eba0887ddf86c7"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-Medium.ttf",
+      "sha1": "5bf8fa15598c049508345993d774fae5e0722d42"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-MediumItalic.ttf",
+      "sha1": "00256d354e7f30fb3c0e14b468a6625990050a95"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-Regular.ttf",
+      "sha1": "50fc729787e6133b511444b185c7397bd3ccd3da"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-SemiBold.ttf",
+      "sha1": "3660d46e706af24cf531ae2098c8bb4c14dc4847"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-SemiBoldItalic.ttf",
+      "sha1": "87b2d362610011997b1dfa0d36c82e511f44493c"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-Thin.ttf",
+      "sha1": "c11218d659dba5975eb681ffd17f4ed1ae784f63"
+    },
+    {
+      "path": "assetss/fonts/JetBrainsMono-ThinItalic.ttf",
+      "sha1": "5429f1fa539bfaf0e3e79586bed5b9864593a236"
+    }
+  ]
+}
