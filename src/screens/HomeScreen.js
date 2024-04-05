@@ -1,5 +1,12 @@
 import React, {useState} from 'react';
-import {Image, SafeAreaView, ScrollView, Text, View} from 'react-native';
+import {
+  Image,
+  SafeAreaView,
+  ScrollView,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
@@ -9,6 +16,15 @@ import {dummyMessages} from '../constant';
 
 const HomeScreen = () => {
   const [messages, setMessages] = useState(dummyMessages);
+  const [recording, setRecording] = useState(false);
+  const [speaking, setSpeaking] = useState(false);
+
+  function clear() {
+    setMessages([]);
+  }
+  function stop() {
+    setSpeaking(false);
+  }
   return (
     <View style={{flex: 1, backgroundColor: 'white', padding: 15}}>
       <SafeAreaView style={{flex: 1}}>
@@ -47,7 +63,7 @@ const HomeScreen = () => {
                           key={index}>
                           <View
                             style={{
-                              backgroundColor: '#FFF3A1',
+                              backgroundColor: '#94A6AE',
                               borderRadius: 20,
                               paddingHorizontal: 10,
                               paddingVertical: 8,
@@ -76,7 +92,7 @@ const HomeScreen = () => {
                           <View
                             style={{
                               width: wp(70),
-                              backgroundColor: '#FFF3A1',
+                              backgroundColor: '#94A6AE',
                               borderRadius: 20,
                               paddingHorizontal: 10,
                               paddingVertical: 8,
@@ -118,6 +134,69 @@ const HomeScreen = () => {
         ) : (
           <Features />
         )}
+
+        <View
+          style={{
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}>
+          {recording ? (
+            <TouchableOpacity>
+              <Image
+                source={require('../assets/images/record.gif')}
+                style={{
+                  height: hp(8),
+                  width: hp(8),
+                  resizeMode: 'contain',
+                }}></Image>
+            </TouchableOpacity>
+          ) : (
+            <TouchableOpacity>
+              <Image
+                source={require('../assets/images/micro.png')}
+                style={{
+                  height: hp(8),
+                  width: hp(8),
+                  resizeMode: 'contain',
+                }}></Image>
+            </TouchableOpacity>
+          )}
+
+          {messages.length > 0 && (
+            <TouchableOpacity
+              onPress={() => {
+                clear();
+              }}
+              style={{
+                backgroundColor: '#858585',
+                paddingHorizontal: 8,
+                paddingVertical: 4,
+                borderRadius: 100,
+                position: 'absolute',
+                right: 30,
+              }}>
+              <Text style={{color: 'white'}}>Clear</Text>
+            </TouchableOpacity>
+          )}
+
+          {speaking && (
+            <TouchableOpacity
+              onPress={() => {
+                stop();
+              }}
+              style={{
+                backgroundColor: '#DE7474',
+                paddingHorizontal: 8,
+                paddingVertical: 4,
+                borderRadius: 100,
+                position: 'absolute',
+                left: 30,
+              }}>
+              <Text style={{color: 'white'}}>Stop</Text>
+            </TouchableOpacity>
+          )}
+        </View>
       </SafeAreaView>
     </View>
   );

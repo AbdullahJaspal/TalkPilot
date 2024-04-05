@@ -47,7 +47,7 @@ const Features = () => {
   };
 
   return (
-    <View style={{height: wp(60)}}>
+    <View style={{flex: 1}}>
       <Text
         style={{
           fontSize: wp(6.5),
